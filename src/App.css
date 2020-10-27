@@ -1,38 +1,80 @@
 .App {
-  text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	text-align: center;
+	margin: 0 auto;
+	width: 90%;
+	background-color: turquoise;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.character__card--container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 600px;
+	height: 220px;
+	background-color: purple;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.character__card--container img {
+	width: 160px;
+	border-radius: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.character__gray {
+	font-weight: 400;
 }
 
-.App-link {
-  color: #61dafb;
+.character__details--container {
+	width: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+	display: flex;
+	justify-content: space-around;
+	background-color: teal;
+	width: 90%;
+	margin: 0 auto;
+	height: 200px;
+}
+
+.header__img--container {
+	display: flex;
+	align-items: center;
+}
+
+.header__img--container img {
+	width: 260px;
+	align-self: center;
+	object-position: center;
+}
+
+.header__input {
+	display: flex;
+	align-items: flex-end;
+}
+
+.header__input input,
+span {
+	width: 300px;
+	height: 40px;
+	margin-bottom: 20px;
+}
+.header__input span {
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: right;
+	padding-right: 20px;
+}
+.header__input input {
+	border: none;
+	border-radius: 10px;
+	font-size: 24px;
+	padding-left: 10px;
 }
