@@ -28,6 +28,7 @@
 
 .character__gray {
 	font-weight: 400;
+	color: yellowgreen;
 }
 
 .character__details--container {
@@ -40,6 +41,7 @@ header {
 	background-color: teal;
 	width: 90%;
 	margin: 0 auto;
+	margin-top: 20px;
 	height: 200px;
 }
 
@@ -56,7 +58,10 @@ header {
 
 .header__input {
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
+	justify-content: center;
+	grid-column: span 2;
+	height: 160px;
 }
 
 .header__input input,
@@ -69,7 +74,7 @@ span {
 	color: white;
 	font-weight: bold;
 	font-size: 24px;
-	text-align: right;
+	text-align: center;
 	padding-right: 20px;
 }
 .header__input input {
@@ -77,4 +82,7 @@ span {
 	border-radius: 10px;
 	font-size: 24px;
 	padding-left: 10px;
+}
+.header__input input:focus {
+	outline: none;
 }
