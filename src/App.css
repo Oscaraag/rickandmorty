@@ -105,6 +105,9 @@ header {
 	background-color: violet;
 	color: white;
 }
+.buttons-container button:focus {
+	outline: none;
+}
 
 @media only screen and (max-width: 1390px) {
 	.App {
