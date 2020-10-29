@@ -1,5 +1,5 @@
 import React from 'react'
-import { CharacterCard } from './components/CharacterCard'
+import { ListOfCharacters } from './components/ListOfCharacters'
 
 import './App.css'
 import Layout from './components/Layout'
@@ -8,7 +8,7 @@ export const App = () => {
 	return (
 		<Layout>
 			<div className='App'>
-				<CharacterCard />
+				<ListOfCharacters />
 			</div>
 		</Layout>
 	)
