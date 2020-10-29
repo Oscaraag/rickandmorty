@@ -1,11 +1,11 @@
 # Rick & Morty React, REST API practice. 
 
 
-### `npm start`
+#### `npm start`
 
-### `npm build`
+#### `npm build`
 
-# https://rickandmorty.oangel.dev/
+#### https://rickandmorty.oangel.dev/
 
 
 
