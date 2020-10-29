@@ -5,7 +5,7 @@
 
 #### `npm build`
 
-#### <a href="https://rickandmorty.oangel.dev/" target="_blank">Deployed site</a>
+####  https://rickandmorty.oangel.dev/
 
 
 
