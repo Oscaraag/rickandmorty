@@ -64,24 +64,21 @@ header {
 	grid-column: span 2;
 	height: 160px;
 }
-
-.header__input input,
-span {
+.header__input svg {
+	width: 25px;
+	align-self: center;
+	padding-left: 10px;
+}
+.header__input input {
 	width: 40%;
 	height: 40px;
-	margin-bottom: 20px;
+	font-weight: 600;
 }
-.header__input span {
-	color: white;
-	font-weight: bold;
-	font-size: 24px;
-	text-align: center;
-	padding-right: 20px;
-}
+
 .header__input input {
 	border: none;
 	border-radius: 10px;
-	font-size: 24px;
+	font-size: 20px;
 	padding-left: 10px;
 }
 .header__input input:focus {
@@ -101,9 +98,12 @@ span {
 	text-align: center;
 	border: none;
 	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
 }
 .buttons-container button:hover {
 	background-color: violet;
+	color: white;
 }
 
 @media only screen and (max-width: 1390px) {
